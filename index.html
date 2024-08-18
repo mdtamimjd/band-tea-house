@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       .manrope {
         font-family: "Manrope", sans-serif;
@@ -20,6 +21,9 @@
       }
       .bg-blue{
         background-color: rgba(87, 118, 57, 0.1);
+      }
+      .bg-footer{
+        background-color: rgba(255, 0, 0, 0.1);
       }
     </style>
   </head>
@@ -152,6 +156,52 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="w-full bg-footer mt-20 py-24">
+      <section class="w-4/5 mx-auto flex flex-col justify-between gap-20">
+      <div class="flex justify-between items-center h-10">
+        <img src="./images/image.png" alt="" class="w-16">
+        <div class="flex gap-10 items-center">
+          <h3 class="font-medium text-[#494949] text-xl">Ready to get strated?</h3>
+          <button
+          class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-xl flex items-center gap-2 cursor-pointer py-3 px-5">
+          <p class="text-xl font-bold text-white">Explore More</p>
+        </button>
+        </div>
+      </div>
+      <div class="flex justify-between">
+        <div class="flex flex-col gap-1">
+          <h3 class="text-[#1c1c1c] text-xl font-semibold mb-2">Quick Links</h3>
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Insurance</a>
+          <a href="">Privacy Policy</a>
+        </div>
+        <div class="flex flex-col gap-1">
+          <h3 class="text-[#1c1c1c] text-xl font-semibold mb-2">Our Service</h3>
+          <a href="">Life Insurance</a>
+          <a href="">Car Insurance</a>
+          <a href="">Health Insurance</a>
+          <a href="">House Insurance</a>
+        </div>
+        <div class="flex flex-col gap-1">
+          <h3 class="text-[#1c1c1c] text-xl font-semibold mb-2">Help</h3>
+          <a href="">FAQs</a>
+          <a href="">Contact Us</a>
+        </div>
+        <div>
+          <h3 class="text-[#1c1c1c] text-xl font-semibold mb-2">Subscribe to our newsletter</h3>
+          <br>
+          <p>Email address</p>
+          <div class="bg-zinc-500 h-[1px] my-3"></div>
+          <span class="flex gap-5">
+            <i class="fa-brands fa-facebook-f text-[30px] text-zinc-800"></i>
+            <i class="fa-brands fa-twitter text-[30px] text-zinc-800"></i>
+            <i class="fa-brands fa-instagram text-[30px] text-zinc-800"></i>
+          </span>
+        </div>
+      </div>
+      <p class="font-medium text-base text-[#494949] text-center">© 2027 UIDesign.to - All rights reserved.</p>
+    </footer>
+    </section>
   </body>
 </html>
